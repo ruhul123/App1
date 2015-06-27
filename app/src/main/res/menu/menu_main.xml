@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Exit"
+        android:title="@string/Exit"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/image"
+        />
+
+    <item
+        android:id="@+id/go_to_calculator"
+        android:title="@string/Calculator_switch_to_ability"
+        android:orderInCategory="100"
+        android:onClick="Go_calculator"
+        app:showAsAction="always"
+        android:icon="@drawable/calculator"
+        />
+
+    <item
+        android:id="@+id/go_to_are_you_happy"
+        android:title="Question_switch_to_ability"
+        android:orderInCategory="100"
+        android:onClick="Go_Question"
+        app:showAsAction="always"
+        android:icon="@drawable/ask"
+        />
+    </menu>
